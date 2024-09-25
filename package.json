@@ -1,0 +1,26 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakan4773/Clean-Blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakan4773/Clean-Blog/issues"
+  },
+  "homepage": "https://github.com/hakan4773/Clean-Blog#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
