@@ -28,7 +28,7 @@
         
         <% for(let post of posts) { %>
         <div class="post-preview">
-          <a href="post.html">
+          <a href="/posts/<%= post._id  %>">
             <h2 class="post-title">
               <%= post.title %>
             </h2>
@@ -38,7 +38,7 @@
           </a>
           <p class="post-meta">Posted by
             <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
+            <%= post.dateCreated ? post.dateCreated.toDateString(1) : 'Tarih bilgisi yok' %></p>
         </div>
         <hr>
 
